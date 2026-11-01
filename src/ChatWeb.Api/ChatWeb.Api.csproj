@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.2.0" />
     <PackageReference Include="FluentValidator" Version="2.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
     <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.20.1" />
@@ -14,6 +16,7 @@
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.20.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.20.1" />
     <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.20.1" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.18.7" />
     <PackageReference Include="WolverineFx" Version="6.60.0" />
     <PackageReference Include="WolverineFx.EntityFrameworkCore" Version="6.60.0" />
     <PackageReference Include="WolverineFx.Http.FluentValidation" Version="6.60.0" />
